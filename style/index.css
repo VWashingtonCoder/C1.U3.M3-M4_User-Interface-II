@@ -51,48 +51,83 @@ table {
 body{    
     font-family:cursive;
     background-color: slategrey;
+    max-width: 100%;
 }
 
 header{
-    height:100px;
+    height:120px;
     background-color: steelblue;
 }
 header h1{
     font-size: 48px;
-    margin-bottom: 15px;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 .buttons{
-    display: flex;
-    justify-content: left;
-    margin-left: 20px;
-    font-weight: bold;
-    font-family:sans-serif;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:center;
+    align-items:center;
 }
 
 .intro{
     display:flex;
-    flex-flow: row wrap;
-    justify-content:space-evenly;
+    flex-flow: column wrap;
+    align-items:center;
+    justify-content: space-between;
     background-color: skyblue;
     padding-top:1%;
     padding-bottom: 1%;
-}
-.intro img{
-    height: 300px;
+    height: 500px;
 }
 .intro div{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    text-align: center;
 }
 .intro h2{
     font-size: 36px;
-}
-.projectsIntro{
-    font-size: 18px;
+    text-align: center;
+    padding-bottom: 2%;
 }
 .intro p{
     font-size: 20px;
     text-align:center;
+    padding-bottom: 2%;
+}
+.intro img{
+    height: 350px;
+    width: 1000px;
+    padding-left: 7%;
+}
+
+.photoGallery{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: turquoise;
+}
+.photoGallery img{
+    height:300px;
+    width:300px;
+}
+
+footer{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 1%;
+}
+footer p{
+    font-size:24px;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+.contactFoot{
+    font-size: 18px;
 }
