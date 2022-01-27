@@ -117,16 +117,16 @@ header h1{
     width:300px;
 }
 
-footer{
+footer div{
+    height: 150px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    padding-bottom: 1%;
+    justify-content: space-around;
+
 }
 footer p{
     font-size:24px;
-    padding-bottom: 1%;
-    padding-top: 1%;
 }
 .contactFoot{
     font-size: 18px;
